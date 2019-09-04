@@ -26,5 +26,9 @@ namespace Asp.netCoreMVCCRUD.Models
         [Column(TypeName = "varchar(100)")]
         [DisplayName("Office Location")]
         public string OfficeLocation { get; set; }
+
+        public string Test { get; set; }
+
+        public string NogNTest { get; set; }
     }
 }
